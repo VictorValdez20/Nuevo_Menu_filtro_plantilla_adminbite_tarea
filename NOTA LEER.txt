@@ -1,0 +1,2 @@
+Nota: Se hizo el filtro a la pantilla solo con los elementos base. 
+Sin embargo la plantilla posee muchos iconos decorativos los cuales estan situados en la ruta "dist\css\icons". Estos iconos agregan 184 archivos extras pero si los quitamos se reduciria a solo 203 archivos (los cuales son los fundamentales)
