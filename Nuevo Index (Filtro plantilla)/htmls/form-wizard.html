@@ -1,0 +1,2246 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- Favicon icon -->
+    <link href="../assets/images/favicon.png" rel="icon" sizes="16x16" type="image/png" />
+    <title>AdminBite admin Template - The Ultimate Multipurpose admin template</title>
+    <!-- This page CSS -->
+    <link href="../assets/libs/jquery-steps/jquery.steps.css" rel="stylesheet" />
+    <link href="../assets/libs/jquery-steps/steps.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="../dist/css/style.min.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)">
+                        <i class="ti-menu ti-close"></i>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <b class="logo-icon">
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img alt="homepage" class="dark-logo" src="../assets/images/logo-icon.png" />
+                            <!-- Light Logo icon -->
+                            <img alt="homepage" class="light-logo" src="../assets/images/logo-light-icon.png" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text -->
+                        <span class="logo-text">
+                            <!-- dark Logo text -->
+                            <img alt="homepage" class="dark-logo" src="../assets/images/logo-text.png" />
+                            <!-- Light Logo text -->
+                            <img alt="homepage" class="light-logo" src="../assets/images/logo-light-text.png" />
+                        </span>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                        class="topbartoggler d-block d-md-none waves-effect waves-light"
+                        data-target="#navbarSupportedContent" data-toggle="collapse" href="javascript:void(0)">
+                        <i class="ti-more"></i>
+                    </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-left mr-auto">
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link sidebartoggler waves-effect waves-light" data-sidebartype="mini-sidebar"
+                                href="javascript:void(0)">
+                                <i class="sl-icon-menu font-20"></i>
+                            </a>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- mega menu -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown mega-dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                                class="nav-link dropdown-toggle waves-effect waves-dark" data-toggle="dropdown" href="">
+                                <i class="ti-gift font-20"></i>
+                            </a>
+                            <div class="dropdown-menu animated bounceInDown">
+                                <div class="mega-dropdown-menu row">
+                                    <div class="col-lg-3 col-xlg-2 m-b-30">
+                                        <h5 class="m-b-20">Carousel</h5>
+                                        <!-- CAROUSEL -->
+                                        <div class="carousel slide" data-ride="carousel" id="carouselExampleControls">
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="carousel-item active">
+                                                    <div class="container p-0">
+                                                        <img alt="First slide" class="d-block img-fluid"
+                                                            src="../assets/images/big/img1.jpg" />
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="container p-0">
+                                                        <img alt="Second slide" class="d-block img-fluid"
+                                                            src="../assets/images/big/img2.jpg" />
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="container p-0">
+                                                        <img alt="Third slide" class="d-block img-fluid"
+                                                            src="../assets/images/big/img3.jpg" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" data-slide="prev"
+                                                href="#carouselExampleControls" role="button">
+                                                <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" data-slide="next"
+                                                href="#carouselExampleControls" role="button">
+                                                <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                        <!-- End CAROUSEL -->
+                                    </div>
+                                    <div class="col-lg-3 m-b-30">
+                                        <h5 class="m-b-20">Accordion</h5>
+                                        <!-- Accordian -->
+                                        <div id="accordion">
+                                            <div class="card m-b-5">
+                                                <div class="card-header" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <button aria-controls="collapseOne" aria-expanded="true"
+                                                            class="btn btn-link" data-target="#collapseOne"
+                                                            data-toggle="collapse">
+                                                            Collapsible Group Item #1
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                                <div aria-labelledby="headingOne" class="collapse show"
+                                                    data-parent="#accordion" id="collapseOne">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                                        accusamus terry.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card m-b-5">
+                                                <div class="card-header" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <button aria-controls="collapseTwo" aria-expanded="false"
+                                                            class="btn btn-link collapsed" data-target="#collapseTwo"
+                                                            data-toggle="collapse">
+                                                            Collapsible Group Item #2
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                                <div aria-labelledby="headingTwo" class="collapse"
+                                                    data-parent="#accordion" id="collapseTwo">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                                        accusamus terry.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card m-b-5">
+                                                <div class="card-header" id="headingThree">
+                                                    <h5 class="mb-0">
+                                                        <button aria-controls="collapseThree" aria-expanded="false"
+                                                            class="btn btn-link collapsed" data-target="#collapseThree"
+                                                            data-toggle="collapse">
+                                                            Collapsible Group Item #3
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                                <div aria-labelledby="headingThree" class="collapse"
+                                                    data-parent="#accordion" id="collapseThree">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                                        accusamus terry.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 m-b-30">
+                                        <h5 class="m-b-20">Contact Us</h5>
+                                        <!-- Contact -->
+                                        <form>
+                                            <div class="form-group">
+                                                <input class="form-control" id="exampleInputname1"
+                                                    placeholder="Enter Name" type="text" />
+                                            </div>
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="Enter email" type="email" />
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="exampleTextarea"
+                                                    placeholder="Message" rows="3"></textarea>
+                                            </div>
+                                            <button class="btn btn-info" type="submit">Submit</button>
+                                        </form>
+                                    </div>
+                                    <div class="col-lg-3 col-xlg-4 m-b-30">
+                                        <h5 class="m-b-20">List style</h5>
+                                        <!-- List style -->
+                                        <ul class="list-style-none">
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="fa fa-check text-success"></i> You can give link</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="fa fa-check text-success"></i> Give link</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="fa fa-check text-success"></i> Another Give link</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="fa fa-check text-success"></i> Forth link</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="fa fa-check text-success"></i> Another fifth link</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End mega menu -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                                class="nav-link dropdown-toggle waves-effect waves-dark" data-toggle="dropdown" href="">
+                                <i class="ti-bell font-20"></i>
+                            </a>
+                            <div class="dropdown-menu mailbox animated bounceInDown">
+                                <span class="with-arrow">
+                                    <span class="bg-primary"></span>
+                                </span>
+                                <ul class="list-style-none">
+                                    <li>
+                                        <div class="drop-title bg-primary text-white">
+                                            <h4 class="m-b-0 m-t-5">4 New</h4>
+                                            <span class="font-light">Notifications</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center notifications">
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="btn btn-danger btn-circle">
+                                                    <i class="fa fa-link"></i>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Luanch Admin</h5>
+                                                    <span class="mail-desc">Just see the my new admin!</span>
+                                                    <span class="time">9:30 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="btn btn-success btn-circle">
+                                                    <i class="ti-calendar"></i>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Event today</h5>
+                                                    <span class="mail-desc">Just a reminder that you have event</span>
+                                                    <span class="time">9:10 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="btn btn-info btn-circle">
+                                                    <i class="ti-settings"></i>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Settings</h5>
+                                                    <span class="mail-desc">You can customize this template as you
+                                                        want</span>
+                                                    <span class="time">9:08 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="btn btn-primary btn-circle">
+                                                    <i class="ti-user"></i>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Pavan kumar</h5>
+                                                    <span class="mail-desc">Just see the my admin!</span>
+                                                    <span class="time">9:02 AM</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link text-center m-b-5" href="javascript:void(0);">
+                                            <strong>Check all notifications</strong>
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                                class="nav-link dropdown-toggle waves-effect waves-dark" data-toggle="dropdown" href=""
+                                id="2">
+                                <i class="font-20 ti-email"></i>
+                            </a>
+                            <div aria-labelledby="2" class="dropdown-menu mailbox animated bounceInDown">
+                                <span class="with-arrow">
+                                    <span class="bg-danger"></span>
+                                </span>
+                                <ul class="list-style-none">
+                                    <li>
+                                        <div class="drop-title bg-danger text-white">
+                                            <h4 class="m-b-0 m-t-5">5 New</h4>
+                                            <span class="font-light">Messages</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center message-body">
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="user-img">
+                                                    <img alt="user" class="rounded-circle"
+                                                        src="../assets/images/users/Victor Valdez.jpg" />
+                                                    <span class="profile-status online pull-right"></span>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Pavan kumar</h5>
+                                                    <span class="mail-desc">Just see the my admin!</span>
+                                                    <span class="time">9:30 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="user-img">
+                                                    <img alt="user" class="rounded-circle"
+                                                        src="../assets/images/users/2.jpg" />
+                                                    <span class="profile-status busy pull-right"></span>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Sonu Nigam</h5>
+                                                    <span class="mail-desc">I've sung a song! See you at</span>
+                                                    <span class="time">9:10 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="user-img">
+                                                    <img alt="user" class="rounded-circle"
+                                                        src="../assets/images/users/3.jpg" />
+                                                    <span class="profile-status away pull-right"></span>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Arijit Sinh</h5>
+                                                    <span class="mail-desc">I am a singer!</span>
+                                                    <span class="time">9:08 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="user-img">
+                                                    <img alt="user" class="rounded-circle"
+                                                        src="../assets/images/users/4.jpg" />
+                                                    <span class="profile-status offline pull-right"></span>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Pavan kumar</h5>
+                                                    <span class="mail-desc">Just see the my admin!</span>
+                                                    <span class="time">9:02 AM</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link text-center link" href="javascript:void(0);">
+                                            <b>See all e-Mails</b>
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-right">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item search-box">
+                            <a class="nav-link waves-effect waves-dark" href="javascript:void(0)">
+                                <i class="ti-search font-16"></i>
+                            </a>
+                            <form class="app-search position-absolute">
+                                <input class="form-control" placeholder="Search &amp; enter" type="text" />
+                                <a class="srh-btn">
+                                    <i class="ti-close"></i>
+                                </a>
+                            </form>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- create new -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
+                                data-toggle="dropdown" href="#" id="navbarDropdown2" role="button">
+                                <i class="flag-icon flag-icon-us font-18"></i>
+                            </a>
+                            <div aria-labelledby="navbarDropdown2"
+                                class="dropdown-menu dropdown-menu-right animated bounceInDown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="flag-icon flag-icon-us"></i> English</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="flag-icon flag-icon-fr"></i> French</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="flag-icon flag-icon-es"></i> Spanish</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="flag-icon flag-icon-de"></i> German</a>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                                class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic"
+                                data-toggle="dropdown" href="">
+                                <img alt="user" class="rounded-circle" src="../assets/images/users/Victor Valdez.jpg"
+                                    width="31" />
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
+                                <span class="with-arrow">
+                                    <span class="bg-primary"></span>
+                                </span>
+                                <div class="d-flex no-block align-items-center p-15 bg-primary text-white m-b-10">
+                                    <div class="">
+                                        <img alt="user" class="img-circle"
+                                            src="../assets/images/users/Victor Valdez.jpg" width="60" />
+                                    </div>
+                                    <div class="m-l-10">
+                                        <h4 class="m-b-0">Victor Valdez</h4>
+                                        <p class="m-b-0">l22121402@morelia.tecnm.mx</p>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <i class="ti-email m-r-5 m-l-5"></i> Inbox</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="p-l-30 p-10">
+                                    <a class="btn btn-sm btn-success btn-rounded" href="javascript:void(0)">View
+                                        Profile</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <!-- User Profile-->
+                        <li>
+                            <!-- User Profile-->
+                            <div class="user-profile dropdown m-t-20">
+                                <div class="user-pic">
+                                    <img alt="users" class="rounded-circle img-fluid"
+                                        src="../assets/images/users/Victor Valdez.jpg" />
+                                </div>
+                                <div class="user-content hide-menu m-t-10">
+                                    <h5 class="m-b-10 user-name font-medium">Victor Valdez</h5>
+                                    <a aria-expanded="false" aria-haspopup="true" class="btn btn-circle btn-sm m-r-5"
+                                        data-toggle="dropdown" href="javascript:void(0)" id="Userdd" role="button">
+                                        <i class="ti-settings"></i>
+                                    </a>
+                                    <a class="btn btn-circle btn-sm" href="javascript:void(0)" title="Logout">
+                                        <i class="ti-power-off"></i>
+                                    </a>
+                                    <div aria-labelledby="Userdd" class="dropdown-menu animated flipInY">
+                                        <a class="dropdown-item" href="javascript:void(0)">
+                                            <i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
+                                        <a class="dropdown-item" href="javascript:void(0)">
+                                            <i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
+                                        <a class="dropdown-item" href="javascript:void(0)">
+                                            <i class="ti-email m-r-5 m-l-5"></i> Inbox</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="javascript:void(0)">
+                                            <i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="javascript:void(0)">
+                                            <i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End User Profile-->
+                        </li>
+                        <!-- ------------------------------------------------------------------------- ELEMENTOS UI ------------------------------------------------------------------------- -->
+                        <li class="nav-small-cap">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">UI</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark"
+                                href="javascript:void(0)">
+                                <i class="icon-Paint-Brush"></i>
+                                <span class="hide-menu">Ui Elements </span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-buttons.html">
+                                        <i class="mdi mdi-toggle-switch"></i>
+                                        <span class="hide-menu"> Buttons</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-modals.html">
+                                        <i class="mdi mdi-tablet"></i>
+                                        <span class="hide-menu"> Modals</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-tooltip-popover.html">
+                                        <i class="mdi mdi-image-filter-vintage"></i>
+                                        <span class="hide-menu"> Tooltip &amp; Popover</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-notification.html">
+                                        <i class="mdi mdi-message-bulleted"></i>
+                                        <span class="hide-menu"> Notification</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-progressbar.html">
+                                        <i class="mdi mdi-poll"></i>
+                                        <span class="hide-menu"> Progressbar</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-typography.html">
+                                        <i class="mdi mdi-format-line-spacing"></i>
+                                        <span class="hide-menu"> Typography</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-list-media.html">
+                                        <i class="mdi mdi-file-video"></i>
+                                        <span class="hide-menu"> List Media</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-grid.html">
+                                        <i class="mdi mdi-view-module"></i>
+                                        <span class="hide-menu"> Grid</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-carousel.html">
+                                        <i class="mdi mdi-view-carousel"></i>
+                                        <span class="hide-menu"> Carousel</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- ------------------------------------------------------------------------- FORMULARIOS ------------------------------------------------------------------------- -->
+                        <li class="nav-small-cap">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">Forms</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark"
+                                href="javascript:void(0)">
+                                <i class="icon-Receipt-4"></i>
+                                <span class="hide-menu">Form Elements</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-inputs.html">
+                                        <i class="mdi mdi-priority-low"></i>
+                                        <span class="hide-menu"> Forms Input</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-input-groups.html">
+                                        <i class="mdi mdi-rounded-corner"></i>
+                                        <span class="hide-menu"> Input Groups</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-input-grid.html">
+                                        <i class="mdi mdi-select-all"></i>
+                                        <span class="hide-menu"> Input Grid</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-checkbox-radio.html">
+                                        <i class="mdi mdi-shape-plus"></i>
+                                        <span class="hide-menu"> Checkboxes &amp; Radios</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-bootstrap-switch.html">
+                                        <i class="mdi mdi-toggle-switch-off"></i>
+                                        <span class="hide-menu"> Bootstrap Switch</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-select2.html">
+                                        <i class="mdi mdi-relative-scale"></i>
+                                        <span class="hide-menu"> Select2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark"
+                                href="javascript:void(0)">
+                                <i class="icon-Receipt-4"></i>
+                                <span class="hide-menu">Form Validation</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-bootstrap-validation.html">
+                                        <i class="mdi mdi-credit-card-scan"></i>
+                                        <span class="hide-menu"> Bootstrap Validation</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-custom-validation.html">
+                                        <i class="mdi mdi-credit-card-plus"></i>
+                                        <span class="hide-menu"> Custom Validation</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)
+                                   ">
+                                <i class="icon-File-Edit"></i>
+                                <span class="hide-menu">Form Pickers</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-picker-datetimepicker.html">
+                                        <i class="mdi mdi-calendar-clock"></i>
+                                        <span class="hide-menu"> Form Datetimepicker</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-picker-bootstrap-datepicker.html">
+                                        <i class="mdi mdi-calendar-check"></i>
+                                        <span class="hide-menu"> Form Bootstrap Datepicker</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link waves-effect waves-dark sidebar-link" href="form-wizard.html
+                                   ">
+                                <i class="icon-Receipt"></i>
+                                <span class="hide-menu">Form Wizard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link waves-effect waves-dark sidebar-link" href="form-repeater.html
+                                   ">
+                                <i class="mdi mdi-creation"></i>
+                                <span class="hide-menu">Form Repeater</span>
+                            </a>
+                        </li>
+                        <!-- ------------------------------------------------------------------------- TABLAS ------------------------------------------------------------------------- -->
+                        <li class="nav-small-cap">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">Tables</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)
+                                   ">
+                                <i class="mdi mdi-border-none"></i>
+                                <span class="hide-menu">Bootstrap Tables</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="table-basic.html">
+                                        <i class="mdi mdi-border-all"></i>
+                                        <span class="hide-menu">Basic Table </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)
+                                   ">
+                                <i class="mdi mdi-border-inside"></i>
+                                <span class="hide-menu">Datatables</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="table-datatable-basic.html">
+                                        <i class="mdi mdi-border-vertical"></i>
+                                        <span class="hide-menu"> Basic Initialisation</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="table-datatable-api.html">
+                                        <i class="mdi mdi-blur-linear"></i>
+                                        <span class="hide-menu"> API</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="table-datatable-advanced.html">
+                                        <i class="mdi mdi-border-style"></i>
+                                        <span class="hide-menu"> Advanced Initialisation</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link waves-effect waves-dark sidebar-link" href="table-jsgrid.html
+                                   ">
+                                <i class="mdi mdi-border-top"></i>
+                                <span class="hide-menu">Table Jsgrid</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link waves-effect waves-dark sidebar-link" href="table-responsive.html
+                                   ">
+                                <i class="mdi mdi-border-style"></i>
+                                <span class="hide-menu">Table Responsive</span>
+                            </a>
+                        </li>
+                        <!-- ------------------------------------------------------------------------- MAPAS ------------------------------------------------------------------------- -->
+                        <li class="nav-small-cap">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">Maps</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)
+                                   ">
+                                <i class="icon-Location-2"></i>
+                                <span class="hide-menu">Maps</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="map-google.html">
+                                        <i class="mdi mdi-google-maps"></i>
+                                        <span class="hide-menu"> Google Map </span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="map-vector.html">
+                                        <i class="mdi mdi-map-marker-radius"></i>
+                                        <span class="hide-menu"> Vector Map</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-5 align-self-center">
+                        <h4 class="page-title">Form Wizard</h4>
+                        <div class="d-flex align-items-center">
+                        </div>
+                    </div>
+                    <div class="col-7 align-self-center">
+                        <div class="d-flex no-block justify-content-end align-items-center">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li aria-current="page" class="breadcrumb-item active">Library</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- ============================================================== -->
+                    <!-- Example -->
+                    <!-- ============================================================== -->
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Basic Example</h4>
+                                <h6 class="card-subtitle"></h6>
+                                <div class="m-t-40" id="example-basic">
+                                    <h3>Keyboard</h3>
+                                    <section>
+                                        <p>Try the keyboard navigation by clicking arrow left or right!</p>
+                                    </section>
+                                    <h3>Effects</h3>
+                                    <section>
+                                        <p>Wonderful transition effects.</p>
+                                    </section>
+                                    <h3>Pager</h3>
+                                    <section>
+                                        <p>The next and previous buttons help you to navigate through your content.</p>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- Example -->
+                    <!-- ============================================================== -->
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body wizard-content">
+                                <h4 class="card-title">Custom Design Example</h4>
+                                <h6 class="card-subtitle"></h6>
+                                <form action="#" class="tab-wizard wizard-circle">
+                                    <!-- Step 1 -->
+                                    <h6>Personal Info</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="firstName1">First Name :</label>
+                                                    <input class="form-control" id="firstName1" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="lastName1">Last Name :</label>
+                                                    <input class="form-control" id="lastName1" type="text" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="emailAddress1">Email Address :</label>
+                                                    <input class="form-control" id="emailAddress1" type="email" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="phoneNumber1">Phone Number :</label>
+                                                    <input class="form-control" id="phoneNumber1" type="tel" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="location1">Select City :</label>
+                                                    <select class="custom-select form-control" id="location1"
+                                                        name="location">
+                                                        <option value="">Select City</option>
+                                                        <option value="Amsterdam">India</option>
+                                                        <option value="Berlin">USA</option>
+                                                        <option value="Frankfurt">Dubai</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="date1">Date of Birth :</label>
+                                                    <input class="form-control" id="date1" type="date" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- Step 2 -->
+                                    <h6>Job Status</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="jobTitle1">Job Title :</label>
+                                                    <input class="form-control" id="jobTitle1" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="videoUrl1">Company Name :</label>
+                                                    <input class="form-control" id="videoUrl1" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="shortDescription1">Job Description :</label>
+                                                    <textarea class="form-control" id="shortDescription1"
+                                                        name="shortDescription" rows="6"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- Step 3 -->
+                                    <h6>Interview</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="int1">Interview For :</label>
+                                                    <input class="form-control" id="int1" type="text" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="intType1">Interview Type :</label>
+                                                    <select class="custom-select form-control"
+                                                        data-placeholder="Type to search cities" id="intType1"
+                                                        name="intType1">
+                                                        <option value="Banquet">Normal</option>
+                                                        <option value="Fund Raiser">Difficult</option>
+                                                        <option value="Dinner Party">Hard</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="Location1">Location :</label>
+                                                    <select class="custom-select form-control" id="Location1"
+                                                        name="location">
+                                                        <option value="">Select City</option>
+                                                        <option value="India">India</option>
+                                                        <option value="USA">USA</option>
+                                                        <option value="Dubai">Dubai</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="jobTitle2">Interview Date :</label>
+                                                    <input class="form-control" id="jobTitle2" type="date" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Requirements :</label>
+                                                    <div class="c-inputs-stacked">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio6"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label"
+                                                                for="customRadio6">Employee</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio7"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label"
+                                                                for="customRadio7">Contract</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- Step 4 -->
+                                    <h6>Remark</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="behName1">Behaviour :</label>
+                                                    <input class="form-control" id="behName1" type="text" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="participants1">Confidance</label>
+                                                    <input class="form-control" id="participants1" type="text" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="participants1">Result</label>
+                                                    <select class="custom-select form-control" id="participants1"
+                                                        name="location">
+                                                        <option value="">Select Result</option>
+                                                        <option value="Selected">Selected</option>
+                                                        <option value="Rejected">Rejected</option>
+                                                        <option value="Call Second-time">Call Second-time</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="decisions1">Comments</label>
+                                                    <textarea class="form-control" id="decisions1" name="decisions"
+                                                        rows="4"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Rate Interviwer :</label>
+                                                    <div class="c-inputs-stacked">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio1"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio1">1
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio2"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio2">2
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio3"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio3">3
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio4"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio4">4
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio5"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio5">5
+                                                                star</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- Example -->
+                    <!-- ============================================================== -->
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body wizard-content">
+                                <h4 class="card-title">Step wizard with validation</h4>
+                                <h6 class="card-subtitle">You can us the validation like what we did</h6>
+                                <form action="#" class="validation-wizard wizard-circle m-t-40">
+                                    <!-- Step 1 -->
+                                    <h6>Step 1</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="wfirstName2"> First Name : <span class="danger">*</span>
+                                                    </label>
+                                                    <input class="form-control required" id="wfirstName2"
+                                                        name="firstName" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="wlastName2"> Last Name : <span class="danger">*</span>
+                                                    </label>
+                                                    <input class="form-control required" id="wlastName2" name="lastName"
+                                                        type="text" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="wemailAddress2"> Email Address : <span
+                                                            class="danger">*</span> </label>
+                                                    <input class="form-control required" id="wemailAddress2"
+                                                        name="emailAddress" type="email" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="wphoneNumber2">Phone Number :</label>
+                                                    <input class="form-control" id="wphoneNumber2" type="tel" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="wlocation2"> Select City : <span class="danger">*</span>
+                                                    </label>
+                                                    <select class="custom-select form-control required" id="wlocation2"
+                                                        name="location">
+                                                        <option value="">Select City</option>
+                                                        <option value="India">India</option>
+                                                        <option value="USA">USA</option>
+                                                        <option value="Dubai">Dubai</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="wdate2">Date of Birth :</label>
+                                                    <input class="form-control" id="wdate2" type="date" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- Step 2 -->
+                                    <h6>Step 2</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="jobTitle2">Company Name :</label>
+                                                    <input class="form-control required" id="jobTitle2" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="webUrl3">Company URL :</label>
+                                                    <input class="form-control required" id="webUrl3" name="webUrl3"
+                                                        type="url" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="shortDescription3">Short Description :</label>
+                                                    <textarea class="form-control" id="shortDescription3"
+                                                        name="shortDescription" rows="6"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- Step 3 -->
+                                    <h6>Step 3</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="wint1">Interview For :</label>
+                                                    <input class="form-control required" id="wint1" type="text" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="wintType1">Interview Type :</label>
+                                                    <select class="custom-select form-control required"
+                                                        data-placeholder="Type to search cities" id="wintType1"
+                                                        name="wintType1">
+                                                        <option value="Banquet">Normal</option>
+                                                        <option value="Fund Raiser">Difficult</option>
+                                                        <option value="Dinner Party">Hard</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="wLocation1">Location :</label>
+                                                    <select class="custom-select form-control required" id="wLocation1"
+                                                        name="wlocation">
+                                                        <option value="">Select City</option>
+                                                        <option value="India">India</option>
+                                                        <option value="USA">USA</option>
+                                                        <option value="Dubai">Dubai</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="wjobTitle2">Interview Date :</label>
+                                                    <input class="form-control required" id="wjobTitle2" type="date" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Requirements :</label>
+                                                    <div class="c-inputs-stacked">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio16"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label"
+                                                                for="customRadio16">Employee</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio17"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label"
+                                                                for="customRadio17">Contract</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- Step 4 -->
+                                    <h6>Step 4</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="behName1">Behaviour :</label>
+                                                    <input class="form-control required" id="behName1" type="text" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="participants1">Confidance</label>
+                                                    <input class="form-control required" id="participants1"
+                                                        type="text" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="participants1">Result</label>
+                                                    <select class="custom-select form-control required"
+                                                        id="participants1" name="location">
+                                                        <option value="">Select Result</option>
+                                                        <option value="Selected">Selected</option>
+                                                        <option value="Rejected">Rejected</option>
+                                                        <option value="Call Second-time">Call Second-time</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="decisions1">Comments</label>
+                                                    <textarea class="form-control" id="decisions1" name="decisions"
+                                                        rows="4"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Rate Interviwer :</label>
+                                                    <div class="c-inputs-stacked">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio11"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio11">1
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio12"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio12">2
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio13"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio13">3
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio14"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio14">4
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio15"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio15">5
+                                                                star</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- Example -->
+                    <!-- ============================================================== -->
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body wizard-content">
+                                <h4 class="card-title">Step wizard Vertical</h4>
+                                <h6 class="card-subtitle"></h6>
+                                <form action="#" class="tab-wizard vertical wizard-circle m-t-40">
+                                    <!-- Step 1 -->
+                                    <h6>Personal Info</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="firstName1">First Name :</label>
+                                                    <input class="form-control" id="firstName1" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="lastName1">Last Name :</label>
+                                                    <input class="form-control" id="lastName1" type="text" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="emailAddress1">Email Address :</label>
+                                                    <input class="form-control" id="emailAddress1" type="email" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="phoneNumber1">Phone Number :</label>
+                                                    <input class="form-control" id="phoneNumber1" type="tel" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="location1">Select City :</label>
+                                                    <select class="custom-select form-control" id="location1"
+                                                        name="location">
+                                                        <option value="">Select City</option>
+                                                        <option value="Amsterdam">India</option>
+                                                        <option value="Berlin">USA</option>
+                                                        <option value="Frankfurt">Dubai</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="date1">Date of Birth :</label>
+                                                    <input class="form-control" id="date1" type="date" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- Step 2 -->
+                                    <h6>Job Status</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="jobTitle1">Job Title :</label>
+                                                    <input class="form-control" id="jobTitle1" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="videoUrl1">Company Name :</label>
+                                                    <input class="form-control" id="videoUrl1" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="shortDescription1">Job Description :</label>
+                                                    <textarea class="form-control" id="shortDescription1"
+                                                        name="shortDescription" rows="6"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- Step 3 -->
+                                    <h6>Interview</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="int1">Interview For :</label>
+                                                    <input class="form-control" id="int1" type="text" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="intType1">Interview Type :</label>
+                                                    <select class="custom-select form-control"
+                                                        data-placeholder="Type to search cities" id="intType1"
+                                                        name="intType1">
+                                                        <option value="Banquet">Normal</option>
+                                                        <option value="Fund Raiser">Difficult</option>
+                                                        <option value="Dinner Party">Hard</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="Location1">Location :</label>
+                                                    <select class="custom-select form-control" id="Location1"
+                                                        name="location">
+                                                        <option value="">Select City</option>
+                                                        <option value="India">India</option>
+                                                        <option value="USA">USA</option>
+                                                        <option value="Dubai">Dubai</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="jobTitle2">Interview Date :</label>
+                                                    <input class="form-control" id="jobTitle2" type="date" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Requirements :</label>
+                                                    <div class="c-inputs-stacked">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio26"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label"
+                                                                for="customRadio26">Employee</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio27"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label"
+                                                                for="customRadio27">Contract</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- Step 4 -->
+                                    <h6>Remark</h6>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="behName1">Behaviour :</label>
+                                                    <input class="form-control" id="behName1" type="text" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="participants1">Confidance</label>
+                                                    <input class="form-control" id="participants1" type="text" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="participants1">Result</label>
+                                                    <select class="custom-select form-control" id="participants1"
+                                                        name="location">
+                                                        <option value="">Select Result</option>
+                                                        <option value="Selected">Selected</option>
+                                                        <option value="Rejected">Rejected</option>
+                                                        <option value="Call Second-time">Call Second-time</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="decisions1">Comments</label>
+                                                    <textarea class="form-control" id="decisions1" name="decisions"
+                                                        rows="4"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Rate Interviwer :</label>
+                                                    <div class="c-inputs-stacked">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio21"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio21">1
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio22"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio22">2
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio23"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio23">3
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio24"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio24">4
+                                                                star</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input class="custom-control-input" id="customRadio25"
+                                                                name="customRadio" type="radio" />
+                                                            <label class="custom-control-label" for="customRadio25">5
+                                                                star</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- Example -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Example -->
+                    <!-- ============================================================== -->
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Basic Form Example</h4>
+                                <h6 class="card-subtitle"></h6>
+                                <form action="#" class="m-t-40" id="example-form">
+                                    <div>
+                                        <h3>Account</h3>
+                                        <section>
+                                            <label for="userName">User name *</label>
+                                            <input class="required form-control" id="userName" name="userName"
+                                                type="text" />
+                                            <label for="password">Password *</label>
+                                            <input class="required form-control" id="password" name="password"
+                                                type="text" />
+                                            <label for="confirm">Confirm Password *</label>
+                                            <input class="required form-control" id="confirm" name="confirm"
+                                                type="text" />
+                                            <p>(*) Mandatory</p>
+                                        </section>
+                                        <h3>Profile</h3>
+                                        <section>
+                                            <label for="name">First name *</label>
+                                            <input class="required form-control" id="name" name="name" type="text" />
+                                            <label for="surname">Last name *</label>
+                                            <input class="required form-control" id="surname" name="surname"
+                                                type="text" />
+                                            <label for="email">Email *</label>
+                                            <input class="required email form-control" id="email" name="email"
+                                                type="text" />
+                                            <label for="address">Address</label>
+                                            <input class="form-control" id="address" name="address" type="text" />
+                                            <p>(*) Mandatory</p>
+                                        </section>
+                                        <h3>Hints</h3>
+                                        <section>
+                                            <ul>
+                                                <li>Foo</li>
+                                                <li>Bar</li>
+                                                <li>Foobar</li>
+                                            </ul>
+                                        </section>
+                                        <h3>Finish</h3>
+                                        <section>
+                                            <input class="required" id="acceptTerms" name="acceptTerms"
+                                                type="checkbox" />
+                                            <label for="acceptTerms">I agree with the Terms and Conditions.</label>
+                                        </section>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- Example -->
+                    <!-- ============================================================== -->
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Advanced Form Example</h4>
+                                <h6 class="card-subtitle"></h6>
+                                <form action="#" class="m-t-40" id="example-advanced-form">
+                                    <h3>Account</h3>
+                                    <fieldset>
+                                        <h4>Account Information</h4>
+                                        <label for="userName-2">User name *</label>
+                                        <input class="required form-control" id="userName-2" name="userName"
+                                            type="text" />
+                                        <label for="password-2">Password *</label>
+                                        <input class="required form-control" id="password-2" name="password"
+                                            type="text" />
+                                        <label for="confirm-2">Confirm Password *</label>
+                                        <input class="required form-control" id="confirm-2" name="confirm"
+                                            type="text" />
+                                        <p>(*) Mandatory</p>
+                                    </fieldset>
+                                    <h3>Profile</h3>
+                                    <fieldset>
+                                        <legend>Profile Information</legend>
+                                        <label for="name-2">First name *</label>
+                                        <input class="required form-control" id="name-2" name="name" type="text" />
+                                        <label for="surname-2">Last name *</label>
+                                        <input class="required form-control" id="surname-2" name="surname"
+                                            type="text" />
+                                        <label for="email-2">Email *</label>
+                                        <input class="required email form-control" id="email-2" name="email"
+                                            type="text" />
+                                        <label for="address-2">Address</label>
+                                        <input class="form-control" id="address-2" name="address" type="text" />
+                                        <label for="age-2">Age (The warning step will show up if age is less than 18)
+                                            *</label>
+                                        <input class="required number form-control" id="age-2" name="age" type="text" />
+                                        <p>(*) Mandatory</p>
+                                    </fieldset>
+                                    <h3>Warning</h3>
+                                    <fieldset>
+                                        <legend>You are to young</legend>
+                                        <p>Please go away ;-)</p>
+                                    </fieldset>
+                                    <h3>Finish</h3>
+                                    <fieldset>
+                                        <legend>Terms and Conditions</legend>
+                                        <input class="required form-control" id="acceptTerms-2" name="acceptTerms"
+                                            type="checkbox" />
+                                        <label for="acceptTerms-2">I agree with the Terms and Conditions.</label>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- Example -->
+                    <!-- ============================================================== -->
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Dynamic Manipulation Example</h4>
+                                <h6 class="card-subtitle"></h6>
+                                <div class="m-t-40" id="example-manipulation">
+                                    <h3>Add Step</h3>
+                                    <section>
+                                        <p>
+                                            <label for="title-3">HTML Title *</label>
+                                            <br />
+                                            <input class="form-control" id="title-3" type="text" />
+                                            <br />
+                                            <label for="text-3">HTML Content *</label>
+                                            <br />
+                                            <textarea class="form-control" id="text-3" rows="5"></textarea>
+                                        </p>
+                                        <p><a href="javascript:void(0);"
+                                                onclick="$('#wizard-4').steps('add', { title: $('#title-3').val(), content: $('#text-3').val() });">Add</a>
+                                        </p>
+                                        <p>(*) Mandatory</p>
+                                    </section>
+                                    <h3>Insert Step</h3>
+                                    <section>
+                                        <p>
+                                            <label for="position-3">Position (zero-based) *</label>
+                                            <br />
+                                            <input class="form-control" id="position-3" type="text" />
+                                            <br />
+                                            <label for="title2-3">HTML Title *</label>
+                                            <br />
+                                            <input class="form-control" id="title2-3" type="text" />
+                                            <br />
+                                            <label for="text2-3">HTML Content *</label>
+                                            <br />
+                                            <textarea class="form-control" id="text2-3" rows="5"></textarea>
+                                        </p>
+                                        <p><a href="javascript:void(0);"
+                                                onclick="$('#wizard-4').steps('insert', Number($('#position-3').val()), { title: $('#title2-3').val(), content: $('#text2-3').val() });">Insert</a>
+                                        </p>
+                                        <p>(*) Mandatory</p>
+                                    </section>
+                                    <h3>Remove Step</h3>
+                                    <section>
+                                        <p>
+                                            <label for="position2-3">Position (zero-based) *</label>
+                                            <br />
+                                            <input class="form-control" id="position2-3" type="text" />
+                                        </p>
+                                        <p><a href="javascript:void(0);"
+                                                onclick="$('#wizard-4').steps('remove', Number($('#position2-3').val()));">Remove</a>
+                                        </p>
+                                        <p>(*) Mandatory</p>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- Example -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Example -->
+                    <!-- ============================================================== -->
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Vertical Steps Example</h4>
+                                <h6 class="card-subtitle"></h6>
+                                <div class="m-t-40" id="example-vertical">
+                                    <h3>Keyboard</h3>
+                                    <section>
+                                        <p>Try the keyboard navigation by clicking arrow left or right!</p>
+                                    </section>
+                                    <h3>Effects</h3>
+                                    <section>
+                                        <p>Wonderful transition effects.</p>
+                                    </section>
+                                    <h3>Pager</h3>
+                                    <section>
+                                        <p>The next and previous buttons help you to navigate through your content.</p>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- Example -->
+                    <!-- ============================================================== -->
+                </div>
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Right sidebar -->
+                <!-- ============================================================== -->
+                <!-- .right-sidebar -->
+                <!-- ============================================================== -->
+                <!-- End Right sidebar -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center">
+                All Rights Reserved by AdminBite admin. Designed and Developed by <a
+                    href="https://wrappixel.com">WrapPixel</a>.
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- customizer Panel -->
+    <!-- ============================================================== -->
+    <aside class="customizer">
+        <a class="service-panel-toggle" href="javascript:void(0)"><i class="fa fa-spin fa-cog"></i></a>
+        <div class="customizer-body">
+            <ul class="nav customizer-tab" role="tablist">
+                <li class="nav-item">
+                    <a aria-controls="pills-home" aria-selected="true" class="nav-link active" data-toggle="pill"
+                        href="#pills-home" id="pills-home-tab" role="tab"><i class="mdi mdi-wrench font-20"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="chat" aria-selected="false" class="nav-link" data-toggle="pill" href="#chat"
+                        id="pills-profile-tab" role="tab"><i class="mdi mdi-message-reply font-20"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="pills-contact" aria-selected="false" class="nav-link" data-toggle="pill"
+                        href="#pills-contact" id="pills-contact-tab" role="tab"><i
+                            class="mdi mdi-star-circle font-20"></i></a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <!-- Tab 1 -->
+                <div aria-labelledby="pills-home-tab" class="tab-pane fade show active" id="pills-home" role="tabpanel">
+                    <div class="p-15 border-bottom">
+                        <!-- Sidebar -->
+                        <h5 class="font-medium m-b-10 m-t-10">Layout Settings</h5>
+                        <div class="custom-control custom-checkbox m-t-10">
+                            <input class="custom-control-input" id="theme-view" name="theme-view" type="checkbox" />
+                            <label class="custom-control-label" for="theme-view">Dark Theme</label>
+                        </div>
+                        <div class="custom-control custom-checkbox m-t-10">
+                            <input class="custom-control-input sidebartoggler" id="collapssidebar" name="collapssidebar"
+                                type="checkbox" />
+                            <label class="custom-control-label" for="collapssidebar">Collapse Sidebar</label>
+                        </div>
+                        <div class="custom-control custom-checkbox m-t-10">
+                            <input class="custom-control-input" id="sidebar-position" name="sidebar-position"
+                                type="checkbox" />
+                            <label class="custom-control-label" for="sidebar-position">Fixed Sidebar</label>
+                        </div>
+                        <div class="custom-control custom-checkbox m-t-10">
+                            <input class="custom-control-input" id="header-position" name="header-position"
+                                type="checkbox" />
+                            <label class="custom-control-label" for="header-position">Fixed Header</label>
+                        </div>
+                        <div class="custom-control custom-checkbox m-t-10">
+                            <input class="custom-control-input" id="boxed-layout" name="boxed-layout" type="checkbox" />
+                            <label class="custom-control-label" for="boxed-layout">Boxed Layout</label>
+                        </div>
+                    </div>
+                    <div class="p-15 border-bottom">
+                        <!-- Logo BG -->
+                        <h5 class="font-medium m-b-10 m-t-10">Logo Backgrounds</h5>
+                        <ul class="theme-color">
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin1"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin2"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin3"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin4"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin5"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin6"
+                                    href="javascript:void(0)"></a></li>
+                        </ul>
+                        <!-- Logo BG -->
+                    </div>
+                    <div class="p-15 border-bottom">
+                        <!-- Navbar BG -->
+                        <h5 class="font-medium m-b-10 m-t-10">Navbar Backgrounds</h5>
+                        <ul class="theme-color">
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin1"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin2"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin3"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin4"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin5"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin6"
+                                    href="javascript:void(0)"></a></li>
+                        </ul>
+                        <!-- Navbar BG -->
+                    </div>
+                    <div class="p-15 border-bottom">
+                        <!-- Logo BG -->
+                        <h5 class="font-medium m-b-10 m-t-10">Sidebar Backgrounds</h5>
+                        <ul class="theme-color">
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin1"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin2"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin3"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin4"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin5"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin6"
+                                    href="javascript:void(0)"></a></li>
+                        </ul>
+                        <!-- Logo BG -->
+                    </div>
+                </div>
+                <!-- End Tab 1 -->
+                <!-- Tab 2 -->
+                <div aria-labelledby="pills-profile-tab" class="tab-pane fade" id="chat" role="tabpanel">
+                    <ul class="mailbox list-style-none m-t-20">
+                        <li>
+                            <div class="message-center chat-scroll">
+                                <a class="message-item" data-user-id="1" href="javascript:void(0)" id="chat_user_1">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/Victor Valdez.jpg" /> <span
+                                            class="profile-status online pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Pavan kumar</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:30 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="2" href="javascript:void(0)" id="chat_user_2">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/2.jpg" /> <span
+                                            class="profile-status busy pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Sonu Nigam</h5> <span class="mail-desc">I've sung a
+                                            song! See you at</span> <span class="time">9:10 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="3" href="javascript:void(0)" id="chat_user_3">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/3.jpg" /> <span
+                                            class="profile-status away pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Arijit Sinh</h5> <span class="mail-desc">I am a
+                                            singer!</span> <span class="time">9:08 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="4" href="javascript:void(0)" id="chat_user_4">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/4.jpg" /> <span
+                                            class="profile-status offline pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Nirav Joshi</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:02 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="5" href="javascript:void(0)" id="chat_user_5">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/5.jpg" /> <span
+                                            class="profile-status offline pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Sunil Joshi</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:02 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="6" href="javascript:void(0)" id="chat_user_6">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/6.jpg" /> <span
+                                            class="profile-status offline pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Akshay Kumar</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:02 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="7" href="javascript:void(0)" id="chat_user_7">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/7.jpg" /> <span
+                                            class="profile-status offline pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Pavan kumar</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:02 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="8" href="javascript:void(0)" id="chat_user_8">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/8.jpg" /> <span
+                                            class="profile-status offline pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Varun Dhavan</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:02 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Tab 2 -->
+                <!-- Tab 3 -->
+                <div aria-labelledby="pills-contact-tab" class="tab-pane fade p-15" id="pills-contact" role="tabpanel">
+                    <h6 class="m-t-20 m-b-20">Activity Timeline</h6>
+                    <div class="steamline">
+                        <div class="sl-item">
+                            <div class="sl-left bg-success"> <i class="ti-user"></i></div>
+                            <div class="sl-right">
+                                <div class="font-medium">Meeting today <span class="sl-date"> 5pm</span></div>
+                                <div class="desc">you can write anything </div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left bg-info"><i class="fas fa-image"></i></div>
+                            <div class="sl-right">
+                                <div class="font-medium">Send documents to Clark</div>
+                                <div class="desc">Lorem Ipsum is simply </div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left"> <img alt="user" class="rounded-circle"
+                                    src="../assets/images/users/2.jpg" /> </div>
+                            <div class="sl-right">
+                                <div class="font-medium">Go to the Doctor <span class="sl-date">5 minutes ago</span>
+                                </div>
+                                <div class="desc">Contrary to popular belief</div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left"> <img alt="user" class="rounded-circle"
+                                    src="../assets/images/users/Victor Valdez.jpg" /> </div>
+                            <div class="sl-right">
+                                <div><a href="javascript:void(0)">Stephen</a> <span class="sl-date">5 minutes ago</span>
+                                </div>
+                                <div class="desc">Approve meeting with tiger</div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left bg-primary"> <i class="ti-user"></i></div>
+                            <div class="sl-right">
+                                <div class="font-medium">Meeting today <span class="sl-date"> 5pm</span></div>
+                                <div class="desc">you can write anything </div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left bg-info"><i class="fas fa-image"></i></div>
+                            <div class="sl-right">
+                                <div class="font-medium">Send documents to Clark</div>
+                                <div class="desc">Lorem Ipsum is simply </div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left"> <img alt="user" class="rounded-circle"
+                                    src="../assets/images/users/4.jpg" /> </div>
+                            <div class="sl-right">
+                                <div class="font-medium">Go to the Doctor <span class="sl-date">5 minutes ago</span>
+                                </div>
+                                <div class="desc">Contrary to popular belief</div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left"> <img alt="user" class="rounded-circle"
+                                    src="../assets/images/users/6.jpg" /> </div>
+                            <div class="sl-right">
+                                <div><a href="javascript:void(0)">Stephen</a> <span class="sl-date">5 minutes ago</span>
+                                </div>
+                                <div class="desc">Approve meeting with tiger</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Tab 3 -->
+            </div>
+        </div>
+    </aside>
+    <div class="chat-windows"></div>
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="../dist/js/app.min.js"></script>
+    <script src="../dist/js/app.init.light-sidebar.js"></script>
+    <script src="../dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../dist/js/custom.js"></script>
+    <script src="../assets/libs/jquery-steps/build/jquery.steps.min.js"></script>
+    <script src="../assets/libs/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script>
+        //Basic Example
+        $("#example-basic").steps({
+            headerTag: "h3",
+            bodyTag: "section",
+            transitionEffect: "slideLeft",
+            autoFocus: true
+        });
+
+        // Basic Example with form
+        var form = $("#example-form");
+        form.validate({
+            errorPlacement: function errorPlacement(error, element) { element.before(error); },
+            rules: {
+                confirm: {
+                    equalTo: "#password"
+                }
+            }
+        });
+        form.children("div").steps({
+            headerTag: "h3",
+            bodyTag: "section",
+            transitionEffect: "slideLeft",
+            onStepChanging: function (event, currentIndex, newIndex) {
+                form.validate().settings.ignore = ":disabled,:hidden";
+                return form.valid();
+            },
+            onFinishing: function (event, currentIndex) {
+                form.validate().settings.ignore = ":disabled";
+                return form.valid();
+            },
+            onFinished: function (event, currentIndex) {
+                alert("Submitted!");
+            }
+        });
+
+        // Advance Example
+
+        var form = $("#example-advanced-form").show();
+
+        form.steps({
+            headerTag: "h3",
+            bodyTag: "fieldset",
+            transitionEffect: "slideLeft",
+            onStepChanging: function (event, currentIndex, newIndex) {
+                // Allways allow previous action even if the current form is not valid!
+                if (currentIndex > newIndex) {
+                    return true;
+                }
+                // Forbid next action on "Warning" step if the user is to young
+                if (newIndex === 3 && Number($("#age-2").val()) < 18) {
+                    return false;
+                }
+                // Needed in some cases if the user went back (clean up)
+                if (currentIndex < newIndex) {
+                    // To remove error styles
+                    form.find(".body:eq(" + newIndex + ") label.error").remove();
+                    form.find(".body:eq(" + newIndex + ") .error").removeClass("error");
+                }
+                form.validate().settings.ignore = ":disabled,:hidden";
+                return form.valid();
+            },
+            onStepChanged: function (event, currentIndex, priorIndex) {
+                // Used to skip the "Warning" step if the user is old enough.
+                if (currentIndex === 2 && Number($("#age-2").val()) >= 18) {
+                    form.steps("next");
+                }
+                // Used to skip the "Warning" step if the user is old enough and wants to the previous step.
+                if (currentIndex === 2 && priorIndex === 3) {
+                    form.steps("previous");
+                }
+            },
+            onFinishing: function (event, currentIndex) {
+                form.validate().settings.ignore = ":disabled";
+                return form.valid();
+            },
+            onFinished: function (event, currentIndex) {
+                alert("Submitted!");
+            }
+        }).validate({
+            errorPlacement: function errorPlacement(error, element) { element.before(error); },
+            rules: {
+                confirm: {
+                    equalTo: "#password-2"
+                }
+            }
+        });
+
+        // Dynamic Manipulation
+        $("#example-manipulation").steps({
+            headerTag: "h3",
+            bodyTag: "section",
+            enableAllSteps: true,
+            enablePagination: false
+        });
+
+        //Vertical Steps
+
+        $("#example-vertical").steps({
+            headerTag: "h3",
+            bodyTag: "section",
+            transitionEffect: "slideLeft",
+            stepsOrientation: "vertical"
+        });
+
+        //Custom design form example
+        $(".tab-wizard").steps({
+            headerTag: "h6",
+            bodyTag: "section",
+            transitionEffect: "fade",
+            titleTemplate: '<span class="step">#index#</span> #title#',
+            labels: {
+                finish: "Submit"
+            },
+            onFinished: function (event, currentIndex) {
+                swal("Form Submitted!", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem erat eleifend ex semper, lobortis purus sed.");
+
+            }
+        });
+
+
+        var form = $(".validation-wizard").show();
+
+        $(".validation-wizard").steps({
+            headerTag: "h6",
+            bodyTag: "section",
+            transitionEffect: "fade",
+            titleTemplate: '<span class="step">#index#</span> #title#',
+            labels: {
+                finish: "Submit"
+            },
+            onStepChanging: function (event, currentIndex, newIndex) {
+                return currentIndex > newIndex || !(3 === newIndex && Number($("#age-2").val()) < 18) && (currentIndex < newIndex && (form.find(".body:eq(" + newIndex + ") label.error").remove(), form.find(".body:eq(" + newIndex + ") .error").removeClass("error")), form.validate().settings.ignore = ":disabled,:hidden", form.valid())
+            },
+            onFinishing: function (event, currentIndex) {
+                return form.validate().settings.ignore = ":disabled", form.valid()
+            },
+            onFinished: function (event, currentIndex) {
+                swal("Form Submitted!", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem erat eleifend ex semper, lobortis purus sed.");
+            }
+        }), $(".validation-wizard").validate({
+            ignore: "input[type=hidden]",
+            errorClass: "text-danger",
+            successClass: "text-success",
+            highlight: function (element, errorClass) {
+                $(element).removeClass(errorClass)
+            },
+            unhighlight: function (element, errorClass) {
+                $(element).removeClass(errorClass)
+            },
+            errorPlacement: function (error, element) {
+                error.insertAfter(element)
+            },
+            rules: {
+                email: {
+                    email: !0
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

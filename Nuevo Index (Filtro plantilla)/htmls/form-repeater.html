@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- Favicon icon -->
+    <link href="../assets/images/favicon.png" rel="icon" sizes="16x16" type="image/png" />
+    <title>AdminBite admin Template - The Ultimate Multipurpose admin template</title>
+    <!-- Custom CSS -->
+    <!-- Custom CSS -->
+    <link href="../dist/css/style.min.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)">
+                        <i class="ti-menu ti-close"></i>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <b class="logo-icon">
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img alt="homepage" class="dark-logo" src="../assets/images/logo-icon.png" />
+                            <!-- Light Logo icon -->
+                            <img alt="homepage" class="light-logo" src="../assets/images/logo-light-icon.png" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text -->
+                        <span class="logo-text">
+                            <!-- dark Logo text -->
+                            <img alt="homepage" class="dark-logo" src="../assets/images/logo-text.png" />
+                            <!-- Light Logo text -->
+                            <img alt="homepage" class="light-logo" src="../assets/images/logo-light-text.png" />
+                        </span>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                        class="topbartoggler d-block d-md-none waves-effect waves-light"
+                        data-target="#navbarSupportedContent" data-toggle="collapse" href="javascript:void(0)">
+                        <i class="ti-more"></i>
+                    </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-left mr-auto">
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link sidebartoggler waves-effect waves-light" data-sidebartype="mini-sidebar"
+                                href="javascript:void(0)">
+                                <i class="sl-icon-menu font-20"></i>
+                            </a>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- mega menu -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown mega-dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                                class="nav-link dropdown-toggle waves-effect waves-dark" data-toggle="dropdown" href="">
+                                <i class="ti-gift font-20"></i>
+                            </a>
+                            <div class="dropdown-menu animated bounceInDown">
+                                <div class="mega-dropdown-menu row">
+                                    <div class="col-lg-3 col-xlg-2 m-b-30">
+                                        <h5 class="m-b-20">Carousel</h5>
+                                        <!-- CAROUSEL -->
+                                        <div class="carousel slide" data-ride="carousel" id="carouselExampleControls">
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="carousel-item active">
+                                                    <div class="container p-0">
+                                                        <img alt="First slide" class="d-block img-fluid"
+                                                            src="../assets/images/big/img1.jpg" />
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="container p-0">
+                                                        <img alt="Second slide" class="d-block img-fluid"
+                                                            src="../assets/images/big/img2.jpg" />
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="container p-0">
+                                                        <img alt="Third slide" class="d-block img-fluid"
+                                                            src="../assets/images/big/img3.jpg" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" data-slide="prev"
+                                                href="#carouselExampleControls" role="button">
+                                                <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" data-slide="next"
+                                                href="#carouselExampleControls" role="button">
+                                                <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                        <!-- End CAROUSEL -->
+                                    </div>
+                                    <div class="col-lg-3 m-b-30">
+                                        <h5 class="m-b-20">Accordion</h5>
+                                        <!-- Accordian -->
+                                        <div id="accordion">
+                                            <div class="card m-b-5">
+                                                <div class="card-header" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <button aria-controls="collapseOne" aria-expanded="true"
+                                                            class="btn btn-link" data-target="#collapseOne"
+                                                            data-toggle="collapse">
+                                                            Collapsible Group Item #1
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                                <div aria-labelledby="headingOne" class="collapse show"
+                                                    data-parent="#accordion" id="collapseOne">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                                        accusamus terry.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card m-b-5">
+                                                <div class="card-header" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <button aria-controls="collapseTwo" aria-expanded="false"
+                                                            class="btn btn-link collapsed" data-target="#collapseTwo"
+                                                            data-toggle="collapse">
+                                                            Collapsible Group Item #2
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                                <div aria-labelledby="headingTwo" class="collapse"
+                                                    data-parent="#accordion" id="collapseTwo">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                                        accusamus terry.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card m-b-5">
+                                                <div class="card-header" id="headingThree">
+                                                    <h5 class="mb-0">
+                                                        <button aria-controls="collapseThree" aria-expanded="false"
+                                                            class="btn btn-link collapsed" data-target="#collapseThree"
+                                                            data-toggle="collapse">
+                                                            Collapsible Group Item #3
+                                                        </button>
+                                                    </h5>
+                                                </div>
+                                                <div aria-labelledby="headingThree" class="collapse"
+                                                    data-parent="#accordion" id="collapseThree">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                                        accusamus terry.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 m-b-30">
+                                        <h5 class="m-b-20">Contact Us</h5>
+                                        <!-- Contact -->
+                                        <form>
+                                            <div class="form-group">
+                                                <input class="form-control" id="exampleInputname1"
+                                                    placeholder="Enter Name" type="text" />
+                                            </div>
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="Enter email" type="email" />
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="exampleTextarea"
+                                                    placeholder="Message" rows="3"></textarea>
+                                            </div>
+                                            <button class="btn btn-info" type="submit">Submit</button>
+                                        </form>
+                                    </div>
+                                    <div class="col-lg-3 col-xlg-4 m-b-30">
+                                        <h5 class="m-b-20">List style</h5>
+                                        <!-- List style -->
+                                        <ul class="list-style-none">
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="fa fa-check text-success"></i> You can give link</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="fa fa-check text-success"></i> Give link</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="fa fa-check text-success"></i> Another Give link</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="fa fa-check text-success"></i> Forth link</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="fa fa-check text-success"></i> Another fifth link</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End mega menu -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                                class="nav-link dropdown-toggle waves-effect waves-dark" data-toggle="dropdown" href="">
+                                <i class="ti-bell font-20"></i>
+                            </a>
+                            <div class="dropdown-menu mailbox animated bounceInDown">
+                                <span class="with-arrow">
+                                    <span class="bg-primary"></span>
+                                </span>
+                                <ul class="list-style-none">
+                                    <li>
+                                        <div class="drop-title bg-primary text-white">
+                                            <h4 class="m-b-0 m-t-5">4 New</h4>
+                                            <span class="font-light">Notifications</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center notifications">
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="btn btn-danger btn-circle">
+                                                    <i class="fa fa-link"></i>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Luanch Admin</h5>
+                                                    <span class="mail-desc">Just see the my new admin!</span>
+                                                    <span class="time">9:30 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="btn btn-success btn-circle">
+                                                    <i class="ti-calendar"></i>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Event today</h5>
+                                                    <span class="mail-desc">Just a reminder that you have event</span>
+                                                    <span class="time">9:10 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="btn btn-info btn-circle">
+                                                    <i class="ti-settings"></i>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Settings</h5>
+                                                    <span class="mail-desc">You can customize this template as you
+                                                        want</span>
+                                                    <span class="time">9:08 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="btn btn-primary btn-circle">
+                                                    <i class="ti-user"></i>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Pavan kumar</h5>
+                                                    <span class="mail-desc">Just see the my admin!</span>
+                                                    <span class="time">9:02 AM</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link text-center m-b-5" href="javascript:void(0);">
+                                            <strong>Check all notifications</strong>
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                                class="nav-link dropdown-toggle waves-effect waves-dark" data-toggle="dropdown" href=""
+                                id="2">
+                                <i class="font-20 ti-email"></i>
+                            </a>
+                            <div aria-labelledby="2" class="dropdown-menu mailbox animated bounceInDown">
+                                <span class="with-arrow">
+                                    <span class="bg-danger"></span>
+                                </span>
+                                <ul class="list-style-none">
+                                    <li>
+                                        <div class="drop-title bg-danger text-white">
+                                            <h4 class="m-b-0 m-t-5">5 New</h4>
+                                            <span class="font-light">Messages</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center message-body">
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="user-img">
+                                                    <img alt="user" class="rounded-circle"
+                                                        src="../assets/images/users/Victor Valdez.jpg" />
+                                                    <span class="profile-status online pull-right"></span>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Pavan kumar</h5>
+                                                    <span class="mail-desc">Just see the my admin!</span>
+                                                    <span class="time">9:30 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="user-img">
+                                                    <img alt="user" class="rounded-circle"
+                                                        src="../assets/images/users/2.jpg" />
+                                                    <span class="profile-status busy pull-right"></span>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Sonu Nigam</h5>
+                                                    <span class="mail-desc">I've sung a song! See you at</span>
+                                                    <span class="time">9:10 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="user-img">
+                                                    <img alt="user" class="rounded-circle"
+                                                        src="../assets/images/users/3.jpg" />
+                                                    <span class="profile-status away pull-right"></span>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Arijit Sinh</h5>
+                                                    <span class="mail-desc">I am a singer!</span>
+                                                    <span class="time">9:08 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a class="message-item" href="javascript:void(0)">
+                                                <span class="user-img">
+                                                    <img alt="user" class="rounded-circle"
+                                                        src="../assets/images/users/4.jpg" />
+                                                    <span class="profile-status offline pull-right"></span>
+                                                </span>
+                                                <div class="mail-contnet">
+                                                    <h5 class="message-title">Pavan kumar</h5>
+                                                    <span class="mail-desc">Just see the my admin!</span>
+                                                    <span class="time">9:02 AM</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link text-center link" href="javascript:void(0);">
+                                            <b>See all e-Mails</b>
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-right">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item search-box">
+                            <a class="nav-link waves-effect waves-dark" href="javascript:void(0)">
+                                <i class="ti-search font-16"></i>
+                            </a>
+                            <form class="app-search position-absolute">
+                                <input class="form-control" placeholder="Search &amp; enter" type="text" />
+                                <a class="srh-btn">
+                                    <i class="ti-close"></i>
+                                </a>
+                            </form>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- create new -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
+                                data-toggle="dropdown" href="#" id="navbarDropdown2" role="button">
+                                <i class="flag-icon flag-icon-us font-18"></i>
+                            </a>
+                            <div aria-labelledby="navbarDropdown2"
+                                class="dropdown-menu dropdown-menu-right animated bounceInDown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="flag-icon flag-icon-us"></i> English</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="flag-icon flag-icon-fr"></i> French</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="flag-icon flag-icon-es"></i> Spanish</a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="flag-icon flag-icon-de"></i> German</a>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                                class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic"
+                                data-toggle="dropdown" href="">
+                                <img alt="user" class="rounded-circle" src="../assets/images/users/Victor Valdez.jpg"
+                                    width="31" />
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
+                                <span class="with-arrow">
+                                    <span class="bg-primary"></span>
+                                </span>
+                                <div class="d-flex no-block align-items-center p-15 bg-primary text-white m-b-10">
+                                    <div class="">
+                                        <img alt="user" class="img-circle"
+                                            src="../assets/images/users/Victor Valdez.jpg" width="60" />
+                                    </div>
+                                    <div class="m-l-10">
+                                        <h4 class="m-b-0">Victor Valdez</h4>
+                                        <p class="m-b-0">l22121402@morelia.tecnm.mx</p>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <i class="ti-email m-r-5 m-l-5"></i> Inbox</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="p-l-30 p-10">
+                                    <a class="btn btn-sm btn-success btn-rounded" href="javascript:void(0)">View
+                                        Profile</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <!-- User Profile-->
+                        <li>
+                            <!-- User Profile-->
+                            <div class="user-profile dropdown m-t-20">
+                                <div class="user-pic">
+                                    <img alt="users" class="rounded-circle img-fluid"
+                                        src="../assets/images/users/Victor Valdez.jpg" />
+                                </div>
+                                <div class="user-content hide-menu m-t-10">
+                                    <h5 class="m-b-10 user-name font-medium">Victor Valdez</h5>
+                                    <a aria-expanded="false" aria-haspopup="true" class="btn btn-circle btn-sm m-r-5"
+                                        data-toggle="dropdown" href="javascript:void(0)" id="Userdd" role="button">
+                                        <i class="ti-settings"></i>
+                                    </a>
+                                    <a class="btn btn-circle btn-sm" href="javascript:void(0)" title="Logout">
+                                        <i class="ti-power-off"></i>
+                                    </a>
+                                    <div aria-labelledby="Userdd" class="dropdown-menu animated flipInY">
+                                        <a class="dropdown-item" href="javascript:void(0)">
+                                            <i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
+                                        <a class="dropdown-item" href="javascript:void(0)">
+                                            <i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
+                                        <a class="dropdown-item" href="javascript:void(0)">
+                                            <i class="ti-email m-r-5 m-l-5"></i> Inbox</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="javascript:void(0)">
+                                            <i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="javascript:void(0)">
+                                            <i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End User Profile-->
+                        </li>
+                        <!-- ------------------------------------------------------------------------- ELEMENTOS UI ------------------------------------------------------------------------- -->
+                        <li class="nav-small-cap">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">UI</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark"
+                                href="javascript:void(0)">
+                                <i class="icon-Paint-Brush"></i>
+                                <span class="hide-menu">Ui Elements </span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-buttons.html">
+                                        <i class="mdi mdi-toggle-switch"></i>
+                                        <span class="hide-menu"> Buttons</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-modals.html">
+                                        <i class="mdi mdi-tablet"></i>
+                                        <span class="hide-menu"> Modals</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-tooltip-popover.html">
+                                        <i class="mdi mdi-image-filter-vintage"></i>
+                                        <span class="hide-menu"> Tooltip &amp; Popover</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-notification.html">
+                                        <i class="mdi mdi-message-bulleted"></i>
+                                        <span class="hide-menu"> Notification</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-progressbar.html">
+                                        <i class="mdi mdi-poll"></i>
+                                        <span class="hide-menu"> Progressbar</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-typography.html">
+                                        <i class="mdi mdi-format-line-spacing"></i>
+                                        <span class="hide-menu"> Typography</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-list-media.html">
+                                        <i class="mdi mdi-file-video"></i>
+                                        <span class="hide-menu"> List Media</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-grid.html">
+                                        <i class="mdi mdi-view-module"></i>
+                                        <span class="hide-menu"> Grid</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="ui-carousel.html">
+                                        <i class="mdi mdi-view-carousel"></i>
+                                        <span class="hide-menu"> Carousel</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- ------------------------------------------------------------------------- FORMULARIOS ------------------------------------------------------------------------- -->
+                        <li class="nav-small-cap">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">Forms</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark"
+                                href="javascript:void(0)">
+                                <i class="icon-Receipt-4"></i>
+                                <span class="hide-menu">Form Elements</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-inputs.html">
+                                        <i class="mdi mdi-priority-low"></i>
+                                        <span class="hide-menu"> Forms Input</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-input-groups.html">
+                                        <i class="mdi mdi-rounded-corner"></i>
+                                        <span class="hide-menu"> Input Groups</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-input-grid.html">
+                                        <i class="mdi mdi-select-all"></i>
+                                        <span class="hide-menu"> Input Grid</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-checkbox-radio.html">
+                                        <i class="mdi mdi-shape-plus"></i>
+                                        <span class="hide-menu"> Checkboxes &amp; Radios</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-bootstrap-switch.html">
+                                        <i class="mdi mdi-toggle-switch-off"></i>
+                                        <span class="hide-menu"> Bootstrap Switch</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-select2.html">
+                                        <i class="mdi mdi-relative-scale"></i>
+                                        <span class="hide-menu"> Select2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark"
+                                href="javascript:void(0)">
+                                <i class="icon-Receipt-4"></i>
+                                <span class="hide-menu">Form Validation</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-bootstrap-validation.html">
+                                        <i class="mdi mdi-credit-card-scan"></i>
+                                        <span class="hide-menu"> Bootstrap Validation</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-custom-validation.html">
+                                        <i class="mdi mdi-credit-card-plus"></i>
+                                        <span class="hide-menu"> Custom Validation</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)
+                                   ">
+                                <i class="icon-File-Edit"></i>
+                                <span class="hide-menu">Form Pickers</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-picker-datetimepicker.html">
+                                        <i class="mdi mdi-calendar-clock"></i>
+                                        <span class="hide-menu"> Form Datetimepicker</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="form-picker-bootstrap-datepicker.html">
+                                        <i class="mdi mdi-calendar-check"></i>
+                                        <span class="hide-menu"> Form Bootstrap Datepicker</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link waves-effect waves-dark sidebar-link" href="form-wizard.html
+                                   ">
+                                <i class="icon-Receipt"></i>
+                                <span class="hide-menu">Form Wizard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link waves-effect waves-dark sidebar-link" href="form-repeater.html
+                                   ">
+                                <i class="mdi mdi-creation"></i>
+                                <span class="hide-menu">Form Repeater</span>
+                            </a>
+                        </li>
+                        <!-- ------------------------------------------------------------------------- TABLAS ------------------------------------------------------------------------- -->
+                        <li class="nav-small-cap">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">Tables</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)
+                                   ">
+                                <i class="mdi mdi-border-none"></i>
+                                <span class="hide-menu">Bootstrap Tables</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="table-basic.html">
+                                        <i class="mdi mdi-border-all"></i>
+                                        <span class="hide-menu">Basic Table </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)
+                                   ">
+                                <i class="mdi mdi-border-inside"></i>
+                                <span class="hide-menu">Datatables</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="table-datatable-basic.html">
+                                        <i class="mdi mdi-border-vertical"></i>
+                                        <span class="hide-menu"> Basic Initialisation</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="table-datatable-api.html">
+                                        <i class="mdi mdi-blur-linear"></i>
+                                        <span class="hide-menu"> API</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="table-datatable-advanced.html">
+                                        <i class="mdi mdi-border-style"></i>
+                                        <span class="hide-menu"> Advanced Initialisation</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link waves-effect waves-dark sidebar-link" href="table-jsgrid.html
+                                   ">
+                                <i class="mdi mdi-border-top"></i>
+                                <span class="hide-menu">Table Jsgrid</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link waves-effect waves-dark sidebar-link" href="table-responsive.html
+                                   ">
+                                <i class="mdi mdi-border-style"></i>
+                                <span class="hide-menu">Table Responsive</span>
+                            </a>
+                        </li>
+                        <!-- ------------------------------------------------------------------------- MAPAS ------------------------------------------------------------------------- -->
+                        <li class="nav-small-cap">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">Maps</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a aria-expanded="false" class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)
+                                   ">
+                                <i class="icon-Location-2"></i>
+                                <span class="hide-menu">Maps</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="map-google.html">
+                                        <i class="mdi mdi-google-maps"></i>
+                                        <span class="hide-menu"> Google Map </span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link" href="map-vector.html">
+                                        <i class="mdi mdi-map-marker-radius"></i>
+                                        <span class="hide-menu"> Vector Map</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-5 align-self-center">
+                        <h4 class="page-title">Form Repeater</h4>
+                        <div class="d-flex align-items-center">
+                        </div>
+                    </div>
+                    <div class="col-7 align-self-center">
+                        <div class="d-flex no-block justify-content-end align-items-center">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li aria-current="page" class="breadcrumb-item active">Library</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Full Form Repeater</h4>
+                                <div class="repeater-default m-t-30">
+                                    <div data-repeater-list="">
+                                        <div data-repeater-item="">
+                                            <form>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-3">
+                                                        <label for="name">Name</label>
+                                                        <input class="form-control" id="name" placeholder="Name"
+                                                            type="text" />
+                                                    </div>
+                                                    <div class="form-group col-md-3">
+                                                        <label for="email">Email</label>
+                                                        <input class="form-control" id="email" placeholder="Email"
+                                                            type="email" />
+                                                    </div>
+                                                    <div class="form-group col-md-3">
+                                                        <label for="pwd">Password</label>
+                                                        <input class="form-control" id="pwd" placeholder="Password"
+                                                            type="password" />
+                                                    </div>
+                                                    <div class="form-group col-md-3">
+                                                        <label for="msg">Message</label>
+                                                        <textarea class="form-control" id="msg" placeholder="Message"
+                                                            rows="1"></textarea>
+                                                    </div>
+                                                    <div class="form-group col-md-12">
+                                                        <button class="btn btn-success waves-effect waves-light"
+                                                            type="submit">Submit
+                                                        </button>
+                                                        <button class="btn btn-danger waves-effect waves-light m-l-10"
+                                                            data-repeater-delete="" type="button">Delete Form
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <hr />
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-info waves-effect waves-light" data-repeater-create="">Add
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Form Control Repeater</h4>
+                                <form class="m-t-20">
+                                    <div class="">
+                                        <div class="form-group">
+                                            <input class="form-control" id="name" placeholder="Name" type="text" />
+                                        </div>
+                                        <div class="email-repeater form-group">
+                                            <div data-repeater-list="repeater-group">
+                                                <div class="row m-b-15" data-repeater-item="">
+                                                    <div class="col-md-10">
+                                                        <input class="form-control" id="email" placeholder="Email"
+                                                            type="email" />
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <button class="btn btn-danger waves-effect waves-light"
+                                                            data-repeater-delete="" type="button"><i
+                                                                class="ti-close"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-info waves-effect waves-light"
+                                                data-repeater-create="" type="button">Add Email
+                                            </button>
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" id="desig" placeholder="Designation"
+                                                type="text" />
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="msg" placeholder="Message"
+                                                rows="3"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-success waves-effect waves-light"
+                                                type="submit">Submit
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Form Control Repeater</h4>
+                                <form class="m-t-20">
+                                    <div class="">
+                                        <div class="form-group">
+                                            <input class="form-control" id="name" placeholder="Name" type="text" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" id="email" placeholder="Email" type="email" />
+                                        </div>
+                                        <div class="email-repeater form-group">
+                                            <div data-repeater-list="repeater-group">
+                                                <div class="row m-b-15" data-repeater-item="">
+                                                    <div class="col-md-10">
+                                                        <div class="custom-file">
+                                                            <input class="custom-file-input" id="customFile"
+                                                                type="file" />
+                                                            <label class="custom-file-label" for="customFile">Choose
+                                                                file</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <button class="btn btn-danger waves-effect waves-light"
+                                                            data-repeater-delete="" type="button"><i
+                                                                class="ti-close"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-info waves-effect waves-light"
+                                                data-repeater-create="" type="button">Add More File
+                                            </button>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="msg" placeholder="Message"
+                                                rows="3"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-success waves-effect waves-light"
+                                                type="submit">Submit
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Dynamic Form Fields</h4>
+                                <div class="m-t-20" id="education_fields"></div>
+                                <form class="row">
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <input class="form-control" id="Schoolname" name="Schoolname"
+                                                placeholder="School Name" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input class="form-control" id="Age" name="Age" placeholder="Age"
+                                                type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input class="form-control" id="Degree" name="Degree" placeholder="Degree"
+                                                type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <select class="form-control" id="educationDate" name="educationDate">
+                                                <option>Date</option>
+                                                <option value="2015">2015</option>
+                                                <option value="2016">2016</option>
+                                                <option value="2017">2017</option>
+                                                <option value="2018">2018</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <button class="btn btn-success" onclick="education_fields();"
+                                                type="button"><i class="fa fa-plus"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center">
+                All Rights Reserved by AdminBite admin. Designed and Developed by <a
+                    href="https://wrappixel.com">WrapPixel</a>.
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- customizer Panel -->
+    <!-- ============================================================== -->
+    <aside class="customizer">
+        <a class="service-panel-toggle" href="javascript:void(0)"><i class="fa fa-spin fa-cog"></i></a>
+        <div class="customizer-body">
+            <ul class="nav customizer-tab" role="tablist">
+                <li class="nav-item">
+                    <a aria-controls="pills-home" aria-selected="true" class="nav-link active" data-toggle="pill"
+                        href="#pills-home" id="pills-home-tab" role="tab"><i class="mdi mdi-wrench font-20"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="chat" aria-selected="false" class="nav-link" data-toggle="pill" href="#chat"
+                        id="pills-profile-tab" role="tab"><i class="mdi mdi-message-reply font-20"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="pills-contact" aria-selected="false" class="nav-link" data-toggle="pill"
+                        href="#pills-contact" id="pills-contact-tab" role="tab"><i
+                            class="mdi mdi-star-circle font-20"></i></a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <!-- Tab 1 -->
+                <div aria-labelledby="pills-home-tab" class="tab-pane fade show active" id="pills-home" role="tabpanel">
+                    <div class="p-15 border-bottom">
+                        <!-- Sidebar -->
+                        <h5 class="font-medium m-b-10 m-t-10">Layout Settings</h5>
+                        <div class="custom-control custom-checkbox m-t-10">
+                            <input class="custom-control-input" id="theme-view" name="theme-view" type="checkbox" />
+                            <label class="custom-control-label" for="theme-view">Dark Theme</label>
+                        </div>
+                        <div class="custom-control custom-checkbox m-t-10">
+                            <input class="custom-control-input sidebartoggler" id="collapssidebar" name="collapssidebar"
+                                type="checkbox" />
+                            <label class="custom-control-label" for="collapssidebar">Collapse Sidebar</label>
+                        </div>
+                        <div class="custom-control custom-checkbox m-t-10">
+                            <input class="custom-control-input" id="sidebar-position" name="sidebar-position"
+                                type="checkbox" />
+                            <label class="custom-control-label" for="sidebar-position">Fixed Sidebar</label>
+                        </div>
+                        <div class="custom-control custom-checkbox m-t-10">
+                            <input class="custom-control-input" id="header-position" name="header-position"
+                                type="checkbox" />
+                            <label class="custom-control-label" for="header-position">Fixed Header</label>
+                        </div>
+                        <div class="custom-control custom-checkbox m-t-10">
+                            <input class="custom-control-input" id="boxed-layout" name="boxed-layout" type="checkbox" />
+                            <label class="custom-control-label" for="boxed-layout">Boxed Layout</label>
+                        </div>
+                    </div>
+                    <div class="p-15 border-bottom">
+                        <!-- Logo BG -->
+                        <h5 class="font-medium m-b-10 m-t-10">Logo Backgrounds</h5>
+                        <ul class="theme-color">
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin1"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin2"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin3"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin4"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin5"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-logobg="skin6"
+                                    href="javascript:void(0)"></a></li>
+                        </ul>
+                        <!-- Logo BG -->
+                    </div>
+                    <div class="p-15 border-bottom">
+                        <!-- Navbar BG -->
+                        <h5 class="font-medium m-b-10 m-t-10">Navbar Backgrounds</h5>
+                        <ul class="theme-color">
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin1"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin2"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin3"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin4"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin5"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-navbarbg="skin6"
+                                    href="javascript:void(0)"></a></li>
+                        </ul>
+                        <!-- Navbar BG -->
+                    </div>
+                    <div class="p-15 border-bottom">
+                        <!-- Logo BG -->
+                        <h5 class="font-medium m-b-10 m-t-10">Sidebar Backgrounds</h5>
+                        <ul class="theme-color">
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin1"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin2"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin3"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin4"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin5"
+                                    href="javascript:void(0)"></a></li>
+                            <li class="theme-item"><a class="theme-link" data-sidebarbg="skin6"
+                                    href="javascript:void(0)"></a></li>
+                        </ul>
+                        <!-- Logo BG -->
+                    </div>
+                </div>
+                <!-- End Tab 1 -->
+                <!-- Tab 2 -->
+                <div aria-labelledby="pills-profile-tab" class="tab-pane fade" id="chat" role="tabpanel">
+                    <ul class="mailbox list-style-none m-t-20">
+                        <li>
+                            <div class="message-center chat-scroll">
+                                <a class="message-item" data-user-id="1" href="javascript:void(0)" id="chat_user_1">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/Victor Valdez.jpg" /> <span
+                                            class="profile-status online pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Pavan kumar</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:30 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="2" href="javascript:void(0)" id="chat_user_2">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/2.jpg" /> <span
+                                            class="profile-status busy pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Sonu Nigam</h5> <span class="mail-desc">I've sung a
+                                            song! See you at</span> <span class="time">9:10 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="3" href="javascript:void(0)" id="chat_user_3">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/3.jpg" /> <span
+                                            class="profile-status away pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Arijit Sinh</h5> <span class="mail-desc">I am a
+                                            singer!</span> <span class="time">9:08 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="4" href="javascript:void(0)" id="chat_user_4">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/4.jpg" /> <span
+                                            class="profile-status offline pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Nirav Joshi</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:02 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="5" href="javascript:void(0)" id="chat_user_5">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/5.jpg" /> <span
+                                            class="profile-status offline pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Sunil Joshi</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:02 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="6" href="javascript:void(0)" id="chat_user_6">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/6.jpg" /> <span
+                                            class="profile-status offline pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Akshay Kumar</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:02 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="7" href="javascript:void(0)" id="chat_user_7">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/7.jpg" /> <span
+                                            class="profile-status offline pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Pavan kumar</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:02 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                                <!-- Message -->
+                                <a class="message-item" data-user-id="8" href="javascript:void(0)" id="chat_user_8">
+                                    <span class="user-img"> <img alt="user" class="rounded-circle"
+                                            src="../assets/images/users/8.jpg" /> <span
+                                            class="profile-status offline pull-right"></span> </span>
+                                    <span class="mail-contnet">
+                                        <h5 class="message-title">Varun Dhavan</h5> <span class="mail-desc">Just see the
+                                            my admin!</span> <span class="time">9:02 AM</span>
+                                    </span>
+                                </a>
+                                <!-- Message -->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Tab 2 -->
+                <!-- Tab 3 -->
+                <div aria-labelledby="pills-contact-tab" class="tab-pane fade p-15" id="pills-contact" role="tabpanel">
+                    <h6 class="m-t-20 m-b-20">Activity Timeline</h6>
+                    <div class="steamline">
+                        <div class="sl-item">
+                            <div class="sl-left bg-success"> <i class="ti-user"></i></div>
+                            <div class="sl-right">
+                                <div class="font-medium">Meeting today <span class="sl-date"> 5pm</span></div>
+                                <div class="desc">you can write anything </div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left bg-info"><i class="fas fa-image"></i></div>
+                            <div class="sl-right">
+                                <div class="font-medium">Send documents to Clark</div>
+                                <div class="desc">Lorem Ipsum is simply </div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left"> <img alt="user" class="rounded-circle"
+                                    src="../assets/images/users/2.jpg" /> </div>
+                            <div class="sl-right">
+                                <div class="font-medium">Go to the Doctor <span class="sl-date">5 minutes ago</span>
+                                </div>
+                                <div class="desc">Contrary to popular belief</div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left"> <img alt="user" class="rounded-circle"
+                                    src="../assets/images/users/Victor Valdez.jpg" /> </div>
+                            <div class="sl-right">
+                                <div><a href="javascript:void(0)">Stephen</a> <span class="sl-date">5 minutes ago</span>
+                                </div>
+                                <div class="desc">Approve meeting with tiger</div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left bg-primary"> <i class="ti-user"></i></div>
+                            <div class="sl-right">
+                                <div class="font-medium">Meeting today <span class="sl-date"> 5pm</span></div>
+                                <div class="desc">you can write anything </div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left bg-info"><i class="fas fa-image"></i></div>
+                            <div class="sl-right">
+                                <div class="font-medium">Send documents to Clark</div>
+                                <div class="desc">Lorem Ipsum is simply </div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left"> <img alt="user" class="rounded-circle"
+                                    src="../assets/images/users/4.jpg" /> </div>
+                            <div class="sl-right">
+                                <div class="font-medium">Go to the Doctor <span class="sl-date">5 minutes ago</span>
+                                </div>
+                                <div class="desc">Contrary to popular belief</div>
+                            </div>
+                        </div>
+                        <div class="sl-item">
+                            <div class="sl-left"> <img alt="user" class="rounded-circle"
+                                    src="../assets/images/users/6.jpg" /> </div>
+                            <div class="sl-right">
+                                <div><a href="javascript:void(0)">Stephen</a> <span class="sl-date">5 minutes ago</span>
+                                </div>
+                                <div class="desc">Approve meeting with tiger</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Tab 3 -->
+            </div>
+        </div>
+    </aside>
+    <div class="chat-windows"></div>
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="../dist/js/app.min.js"></script>
+    <script src="../dist/js/app.init.light-sidebar.js"></script>
+    <script src="../dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../dist/js/custom.min.js"></script>
+    <!--This page JavaScript -->
+    <script src="../assets/libs/jquery.repeater/jquery.repeater.min.js"></script>
+    <script src="../assets/extra-libs/jquery.repeater/repeater-init.js"></script>
+    <script src="../assets/extra-libs/jquery.repeater/dff.js"></script>
+</body>
+
+</html>
